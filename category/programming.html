@@ -1,163 +1,198 @@
-<!doctype html>
-<html class="no-js" lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="english">
+<head>
+    <meta charset="utf-8">
+    <title>Journal 75 - Programming</title>
+    <meta name="description" content="">
+    <meta name="author" content="ashrafm">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Journal 75</title>
-		<meta name="description" content="">
-		<meta name="author" content="ashrafm">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="/theme/html5.js"></script>
+    <![endif]-->
 
-		<link rel="stylesheet" href="/theme/css/foundation.css" />
-		<link rel="stylesheet" href="/theme/css/pygment/monokai.css" />
-		<link rel="stylesheet" href="/theme/css/custom.css" />
-
-
-		<script src="/theme/js/modernizr.js"></script>
-
-		<!-- Feeds -->
-
-
-		<!-- mathjax config similar to math.stackexchange -->
-		<script type="text/x-mathjax-config">
-		MathJax.Hub.Config({
-			jax: ["input/TeX", "output/HTML-CSS"],
-			tex2jax: {
-				inlineMath: [ ['$', '$'] ],
-				displayMath: [ ['$$', '$$']],
-				processEscapes: true,
-				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-			},
-			messageStyle: "none",
-			"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
-		});
-		</script>
-		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-	</head>
-	<body>
-		<div class="off-canvas-wrap">
-			<div class="inner-wrap">
-				<!-- mobile top bar to activate nav -->
-				<nav class="tab-bar show-for-small">
-					<section class="left-small">
-						<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-					</section>
-
-					<section class="middle tab-bar-section">
-						<h1 class="title"><a href="/">Journal&nbsp;75</a></h1>
-					</section>
-				</nav>
-
-				<!-- mobile side bar nav -->
-				<aside class="left-off-canvas-menu">
-					<ul class="off-canvas-list">
-						<li><a href="/">Home</a></li>
-						<li><label>Categories</label></li>
-							<li ><a href="/category/general-notes.html">General Notes</a></li>
-							<li class="active"><a href="/category/programming.html">Programming</a></li>
-							<li ><a href="/category/rants.html">Rants</a></li>
-
-						<li><label>Links</label></li>
+    <!-- Le styles -->
+    <link href="/theme/bootstrap.min.css" rel="stylesheet">
+    <link href="/theme/bootstrap.min.responsive.css" rel="stylesheet">
+    <link href="/theme/local.css" rel="stylesheet">
+    <link href="/theme/pygments.css" rel="stylesheet">
+	<link href="/theme/github-markdown.css" rel="stylesheet">
 
 
+    <!-- So Firefox can bookmark->"abo this site" -->
 
-						<li><label>Social</label></li>
-					</ul>	
-				</aside>
+</head>
 
-				<!-- top bar nav -->
-				<nav class="top-bar hide-for-small-only" data-topbar>
-					<ul class="title-area">
-						<li class="name">
-							<h1><a href="/">Journal 75</a></h1>
-						</li>
-					</ul>
+<body>
 
-					<section class="top-bar-section">
-						<ul class="left">
-								<li ><a href="/category/general-notes.html">General Notes</a></li>
-								<li class="active"><a href="/category/programming.html">Programming</a></li>
-								<li ><a href="/category/rants.html">Rants</a></li>
-						</ul>
-                        <ul class="right">                                                                                                                                           
-                                                                                                                                             
-                        </ul>  
-					</section>
-				</nav>
+<div class="navbar">
+    <div class="navbar-inner">
+    <div class="container">
 
-				<!-- Main Page Content and Sidebar -->
-				<section class="main-section">
-					<div class="row">
-						<!-- Main Content -->
-						<div class="medium-9 small-12 columns" role="content">
-							<div class="row">
-								<div class="small-12 columns">
-									<h2>Category: Programming</h2>
-								</div>
-							</div>
+         <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+         </a>
 
-<article>
-	<h3><a href="/wordpress-flask-apache.html">WordPress + Flask + Apache</a></h3>
-	<h6>Wed 25 January 2017 in <a href="/category/programming.html">Programming</a>  </h6>
-	
-</article>
-<hr />
-<article>
-	<h3><a href="/show-only-excerpt-of-full-post-on-homepage.html">Show Only Excerpt of Full Post On Homepage</a></h3>
-	<h6>Mon 16 January 2017 in <a href="/category/programming.html">Programming</a>  </h6>
-	
-</article>
-<hr />
+        <a class="brand" href="">Journal 75</a>
+
+        <div class="nav-collapse">
+        <ul class="nav">
+            <li><a href="#">NOTE</a></li>
+            <li><a href="#">PROGRAMMING</a></li>
+            
+        </ul>
+        </div>
+        
+    </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content">
+    <div class="row">
+
+        <div class="span9">
+        
+
+        
 
 
-						</div>
-						<!-- End Main Content -->
-						<!-- Sidebar -->
-						<aside class="medium-3 hide-for-small-only columns">
-						<!--
-							<div class="panel">
-								<h5>Links</h5>
-								<ul class="side-nav">
-								</ul>
-							</div>
-						
+    <div class='article'>
+        <div class="content-title">
+            <a href="/wordpress-flask-apache.html"><h1>WordPress + Flask + Apache</h1></a>
+Wed 25 January 2017
 
-							<div class="panel">
-								<h5>Tags</h5>
-								<ul class="tag-cloud">
-								</ul>
-							</div>
-						-->
+by <a class="url fn" href="/author/ashrafm.html">ashrafm</a>
+ 
 
-						<!--
 
-							<div class="panel">
-								<h5>Social</h5>
-								<ul class="side-nav">
-								</ul>
-							</div>
-						-->
-						</aside>
-						<!-- End Sidebar -->
-					</div>
+ 
+        </div>
+        
+        <div><h2>Problem :</h2>
+<p>You have a WordPress site, with Apache 2 server. How do you run Flask application alongside your WordPress site ?</p>
+<h2>Solution :</h2>
+<p>I assume that you have already created python program for your flask app. Let say your main python flask app filename is <code>testapp.py</code></p>
+<p><strong>1&#46; Get wsgi mod</strong> for Apache web server. Use package installer.</p>
+<p>In Ubuntu case :</p>
+<div class="highlight"><pre><span></span>apt install libapache2-mod-wsgi
+</pre></div>
 
-					<!-- Footer -->
-					<footer class="row">
-						<div class="medium-9 small-12">
-							<hr/>
-							<p class="text-center">Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://foundation.zurb.com/">Zurb Foundation</a>. Theme by <a href="http://hamaluik.com">Kenton Hamaluik</a>.</p>
-						</div>
-					</footer>
-					<!-- End Footer -->
-				</section>
-				<a class="exit-off-canvas"></a>
-			</div><!--off-canvas inner-->
-		</div><!--off-canvas wrap-->
 
-		<script src="/theme/js/jquery.js"></script>
-		<script src="/theme/js/foundation.min.js"></script>
-		<script>
-			$(document).foundation();
-		</script>
-	</body>
+<p>What is WSGI (web server gateway interface) ? It&#8217;s how your webserver &#8216;talks&#8217; to your application.</p>
+<p>App&#8217;s output/input needs some kind of connection with the webserver so that this output/input can be channeled back/to the user&#8217;s browser request. This is where WSGI comes into picture.</p>
+<p><strong>2&#46; Create wsgi file</strong> for your application. This will be located at the same level as your main flask app python file because we will call our flask app from this wsgi file.</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span> <span class="nn">from</span> <span class="nn">testapp</span> <span class="nn">import</span> <span class="nn">app</span>
+
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;/directory-path-to-your-app&#39;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Note : <strong>testapp</strong> is your main python flask app file (that consists of your Flask app entry point) and <strong>app</strong> is your Flask app that you define in your testapp.py</p>
+<p>Save this file as testapp.wsgi</p>
+<p><strong>3&#46; Modify your Apache conf file.</strong> Normally it&#8217;s located in <code>site-enabled</code> folder at <code>/etc/apache2/</code> Append the following within <code>&lt;VirtualHost&gt;&lt;/VirtualHost&gt;</code> tags.</p>
+<div class="highlight"><pre><span></span>WSGIScriptAlias /flaskroot /directory-path-to-your-testapp.wsgi
+<span class="nt">&lt;Directory</span> <span class="err">/directory-path-to-your-app</span><span class="nt">&gt;</span>
+         Require all granted
+<span class="nt">&lt;/Directory&gt;</span>
+</pre></div>
+
+
+<p>Note: <code>flaskroot</code> is the root link where your app will be accessed from the browser. It can be any name/link but obviously it can not be at the same location as your WordPress homepage link or other links that are generated by the WordPress (blog posts, pages, categories)</p>
+<p>This is the simplest way to modify your Apache conf file. If you need more secured way to do this, you can follow <a href="http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/">flask apache deployment</a></p>
+<p><strong>4&#46; Reload your Apache server</strong></p>
+<div class="highlight"><pre><span></span>sudo service apache2 reload
+</pre></div>
+
+
+<p><strong>5&#46; Try to access your flask app via the link</strong> on your browser to see if what you have done is working.</p>
+<p>Let say you define helloworld function in testapp.py that prints out strings in your browser.</p>
+<p>Based on this example here, you can access the app as follows : <code>http://your-site/flaskroot/helloworld</code></p>
+<h2>References</h2>
+<p><a href="http://flask.pocoo.org/docs/0.12/deploying/mod_wsgi/">Flask Apache Deployment</a></p></div>
+        <hr />
+    </div>
+		
+
+ 
+        
+
+ 
+
+    <div class='article'>
+        <a href="/show-only-excerpt-of-full-post-on-homepage.html"><h2>Show Only Excerpt of Full Post On Homepage</h2></a>
+        <div class= "well small"> Mon 16 January 2017
+
+by <a class="url fn" href="/author/ashrafm.html">ashrafm</a>
+ 
+
+
+ </div>
+        <div class="summary"><p>​To prevent displaying full post on homepage/archive/category/tag pages. Display only excerpt of the full post on these pages.</p> <a class="btn btn-info xsmall" href="/show-only-excerpt-of-full-post-on-homepage.html">read more</a></div>
+    </div>	
+				
+<div class="pagination">
+<ul>
+    <li class="prev disabled"><a href="#">&larr; Previous</a></li>
+
+    <li class="active"><a href="/category/programming.html">1</a></li>
+
+    <li class="next disabled"><a href="#">&rarr; Next</a></li>
+
+</ul>
+</div>
+ 
+  
+        </div>
+        
+        <div class="span3">
+
+            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
+            <ul class="nav nav-list">
+                <li class="nav-header"> 
+                Site
+                </li>
+            
+                <li><a href="/archives.html">Archives</a>
+                <li><a href="/tags.html">Tags</a>
+
+
+
+
+            </ul>
+            </div>
+
+
+            <div class="well" style="padding: 8px 0; background-color: #FBFBFB;">
+            <ul class="nav nav-list">
+                <li class="nav-header"> 
+                Categories
+                </li>
+                
+                <li><a href="/category/general-notes.html">General Notes</a></li>
+                <li><a href="/category/programming.html">Programming</a></li>
+                <li><a href="/category/rants.html">Rants</a></li>
+                   
+            </ul>
+            </div>
+
+
+
+
+
+        </div>  
+    </div>     </div> 
+<footer>
+<br />
+<p><a href="">Journal 75</a> &copy; ashrafm 2017</p>
+</footer>
+
+</div> <!-- /container -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="/theme/bootstrap-collapse.js"></script>
+ 
+</body>
 </html>
