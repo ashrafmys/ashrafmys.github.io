@@ -2,6 +2,17 @@
 	margin-bottom: 16px;
 }
 
+h1.article-title {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #2F4F4F;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1.2;
+  word-wrap: break-word;
+	
+}
 .listing h2,a {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
@@ -22,3 +33,4 @@
   line-height: 1.2;
   word-wrap: break-word;
 }
+
